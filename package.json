@@ -1,0 +1,15 @@
+{
+  "name": "clipflow-analytics",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "status": "node src/cli.mjs status",
+    "setup": "node src/cli.mjs setup",
+    "snapshot": "node src/cli.mjs snapshot",
+    "reports": "node src/cli.mjs reports",
+    "sync": "node src/cli.mjs sync",
+    "analyze": "node src/cli.mjs analyze",
+    "test": "node --test"
+  }
+}
